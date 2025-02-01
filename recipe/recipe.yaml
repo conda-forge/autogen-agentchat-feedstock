@@ -1,15 +1,14 @@
 context:
   name: autogen-agentchat
-  version: "0.2.40"
+  version: "0.4.5"
   python_min: "3.8"
-  
 package:
   name: ${{ name|lower }}
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: bfdd25ab63fb75a701095315d0d7214f1616411b9edbcdf6183da35a956cc42e
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
+  sha256: a8d5493b4ec6c45f4d40c33c6d3bb98a6409f7a6428ce4fa9645e51bfe2d7408
 
 build:
   noarch: python
@@ -37,7 +36,7 @@ requirements:
 tests:
   - python:
       imports:
-      - autogen
+        - autogen
       pip_check: true
 
 about:
