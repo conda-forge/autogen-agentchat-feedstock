@@ -28,7 +28,7 @@ requirements:
 tests:
   - python:
       imports:
-      - autogen
+      - autogen_agentchat
       pip_check: true
       python_version: ${{ python_min }}.*
 
