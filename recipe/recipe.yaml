@@ -30,6 +30,7 @@ tests:
       imports:
       - autogen
       pip_check: true
+      python_version: ${{ python_min }}.*
 
 about:
   homepage: https://microsoft.github.io/autogen
