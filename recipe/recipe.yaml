@@ -36,10 +36,7 @@ about:
   homepage: https://microsoft.github.io/autogen
   summary: 'Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework'
   license: Apache-2.0 AND EPL-2.0 AND MIT
-  license_file:
-    - LICENSE-CODE-KUBERNETES
-    - LICENSE-CODE
-    - LICENSE
+  license_file: LICENSE-CODE
   documentation: https://microsoft.github.io/autogen
   repository: https://github.com/microsoft/autogen
 
