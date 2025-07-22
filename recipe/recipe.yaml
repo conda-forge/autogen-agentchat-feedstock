@@ -8,7 +8,7 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/autogen_agentchat-{{ version }}.tar.gz
   sha256: a50ba1a97f3881693084677807756714f237da89fd481207e6d139c930b2b3f8
 
 build:
