@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/autogen_agentchat-{{ version }}.tar.gz
-  sha256: a50ba1a97f3881693084677807756714f237da89fd481207e6d139c930b2b3f8
+  sha256: e8fadd6c18b7423551cb7ba81b4e7c570b60a12cf904d839be11070ef270e89f
 
 build:
   noarch: python
