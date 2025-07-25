@@ -23,7 +23,7 @@ requirements:
     - hatchling
   run:
     - python >=${{ python_min }},<3.13
-    - autogen-core =0.6.4
+    - autogen-core =${{ version }}
 
 tests:
   - python:
