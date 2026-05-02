@@ -1,6 +1,6 @@
 context:
   name: autogen-agentchat
-  version: "0.7.3"
+  version: "0.7.5"
   python_min: "3.10"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/autogen_agentchat-${{ version }}.tar.gz
-  sha256: be3f53faa447ea920915e6410ef11abd65640216612403d8d70ef73e6401ec8f
+  sha256: 8d9c718db52ef24a518806b3a0ef848f0e4c1902877675dc0abed73a8e6e7755
 
 build:
   noarch: python
